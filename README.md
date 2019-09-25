@@ -14,5 +14,5 @@ Then browse to: <http://localhost:5000>
 ## Production
 
 ```sh
-docker run --rm -p 5000:5000 flask
+docker run --rm -d -p 5000:5000 flask
 ```
