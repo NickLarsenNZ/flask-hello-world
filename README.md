@@ -9,6 +9,8 @@ docker build -t flask .
 docker run --rm -e FLASK_ENV=development -p 5000:5000 flask
 ```
 
+Then browse to: <http://localhost:5000>
+
 ## Production
 
 ```sh
